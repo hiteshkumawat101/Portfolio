@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh - Portfolio</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN for Icons -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container text-center">
+            <h1 class="mb-3">Hitesh Kumawat</h1>
+            <p class="mb-4">Data Scientist</p>
+            <a href="#contact" class="btn btn-primary mr-2">Contact Me</a>
+            <a href="#portfolio" class="btn btn-outline-light">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>I’m Hitesh Kumawat, a software Engineer with a B.Tech from IIT Ropar.
+                I specialize in machine learning, data engineering, data analyst, and front end development. Currently at Decimal Point Analytics, 
+                I’m building ML models and chatbots, and have worked on projects involving computer vision, predictive analytics, and conversational AI. 
+                I enjoy solving real-world problems with clean code, smart algorithms, and intuitive interfaces.</p>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="services" class="py-5">
+        <div class="container text-center">
+            <h2>My Services</h2>
+            <div class="row">
+                <!-- Data Analysis Service -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <img src="data-analysis.jpg" alt="Data Analysis">
+                        <h4 class="mt-3">Data Analysis</h4>
+                        <p>Analyzing complex data to uncover trends, patterns, and insights using tools like Python, Pandas, and NumPy.</p>
+                    </div>
+                </div>
+                <!-- Machine Learning Service -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <img src="machine-learning.jpg" alt="Machine Learning">
+                        <h4 class="mt-3">Machine Learning</h4>
+                        <p>Building and deploying predictive models using algorithms like Regression, Classification, and Clustering.</p>
+                    </div>
+                </div>
+                <!-- Data Visualization Service -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <img src="data-visualization.jpg" alt="Data Visualization">
+                        <h4 class="mt-3">Data Visualization</h4>
+                        <p>Creating compelling visualizations to effectively communicate insights using Matplotlib, Seaborn, and Tableau.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>My Portfolio</h2>
+            <p>Here are some of my best projects</p>
+            <div class="row">
+                <!-- Gesture-Controlled Device Management Project -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-img-container">
+                            <img src="GESTURE.jpg" class="card-img-top" alt="Gesture-Controlled Device Management">
+                            <div class="card-description">
+                                <h5>Gesture-Controlled Device Management</h5>
+                                <p>Use hand movements to manage device settings like volume and brightness.</p>
+                                <a href="https://github.com/your-project" class="btn">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blindness Detection Project -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-img-container">
+                            <img src="dr.jpg" class="card-img-top" alt="Blindness Detection">
+                            <div class="card-description">
+                                <h5>Blindness Detection</h5>
+                                <p>Automated Diabetic Retinopathy detection using ResNet50, 96.17% training accuracy.</p>
+                                <a href="https://github.com/your-project" class="btn">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Customer Segmentation Project -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-img-container">
+                            <img src="Customer.png" class="card-img-top" alt="Customer Segmentation">
+                            <div class="card-description">
+                                <h5>Customer Segmentation</h5>
+                                <p>Segmented customers with K-Means clustering for targeted marketing.</p>
+                                <a href="https://github.com/your-project" class="btn">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- See More Button -->
+                <div class="col-md-12 mt-4">
+                    <a href="project.html" class="see-more-btn">See More Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="py-5">
+        <div class="container text-center">
+            <h2>My Hobbies</h2>
+            <p>A glimpse into my personal interests outside of work.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="gallery.html" class="d-block card-img-container service-box">
+                        <img src="sketch-thumbnail.jpg" class="card-img-top" alt="Sketching">
+                        <div class="card-description">
+                            <h5>Sketching</h5>
+                            <p>Express creativity through landscapes, portraits, and nature scenes.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="story.html" class="d-block card-img-container service-box">
+                        <img src="writing-thumbnail.jpg" class="card-img-top" alt="Writing">
+                        <div class="card-description">
+                            <h5>Writing</h5>
+                            <p>Journaling, blogging, and crafting stories that capture my thoughts.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-img-container service-box">
+                        <img src="reading-thumbnail.jpg" class="card-img-top" alt="Reading">
+                        <div class="card-description">
+                            <h5>Reading</h5>
+                            <p>Relax and recharge with new books after a long day.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Let’s work together or have a chat!</p>
+                   <!-- Email Link -->
+            <a href="mailto:hitesh18082003@gmail.com" class="btn btn-primary mb-2"">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+                  <!-- Mobile Link -->
+            <a href="tel:+1234567890" class="btn btn-primary mb-2">
+                <i class="fas fa-phone-alt"></i> Call Me
+            </a>
+            <!-- Instagram Link -->
+            <a href="https://www.instagram.com/yourusername" class="btn btn-outline-secondary mb-2" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/yourusername" class="btn btn-outline-secondary mb-2" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            
+            <!-- Discord Link -->
+            <a href="https://discord.com/users/yourusername" class="btn btn-outline-secondary mb-2" target="_blank">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+            
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Hitesh. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

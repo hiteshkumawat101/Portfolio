@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #24a9d5; /* Red background similar to the example */
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#services .row .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(89, 230, 246);
+    padding: 10px 0;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Styling for service boxes */
+.service-box {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-box:hover {
+    border: 2px solid #007bff; /* Highlight the box with a blue border on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    cursor: pointer;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover img {
+    transform: scale(1.1); /* Zoom image when hovered */
+}
+
+.service-box h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Optional: Make the service section clickable */
+.service-box a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Card container for image and description */
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Description inside the card */
+.card-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    transform: translateY(100%); /* Initially hide description */
+    transition: transform 0.3s ease; /* Smooth transition for slide-in */
+}
+
+/* Hover effect: Show description */
+.card-img-container:hover .card-description {
+    transform: translateY(0); /* Slide description into view */
+}
+
+/* Image hover zoom effect */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Zoom image on hover */
+.card-img-container:hover .card-img-top {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Styling for card title and description */
+.card-description h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-description p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.card-description .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.card-description .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+/* Adjust "See More Projects" button */
+.see-more-btn {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding for better size */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    font-size: 1.2rem; /* Larger font size */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center the text inside the button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 40px; /* Add some space from the portfolio items */
+}
+
+/* Hover effect for "See More" button */
+.see-more-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Optional: For larger screens, keep it centered */
+.text-center .see-more-btn {
+    display: inline-block;
+    margin: 0 auto; /* Center the button horizontally */
+}
