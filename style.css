@@ -183,3 +183,58 @@ a:hover {
     display: inline-block;
     margin: 0 auto; /* Center the button horizontally */
 }
+/* Set fixed height for the images */
+.project-img {
+    height: 250px; /* Adjust as per your need */
+    object-fit: cover;
+}
+
+/* Center the title */
+.card-description h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Optional: To align the paragraph in the center */
+.card-description p {
+    text-align: center;
+}
+
+/* Optional: To adjust the button placement */
+.card-description .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Apply same size for all service images */
+.service-img {
+    width: 100%; /* Make the image fill its container */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Ensure that each service box has the same height */
+.service-box {
+    height: 350px; /* Set a fixed height for the service boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the content evenly */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add border around each service box */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Ensure that the text doesn't overflow or look cramped */
+.service-box h4 {
+    margin-top: 15px;
+}
+
+.service-box p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
